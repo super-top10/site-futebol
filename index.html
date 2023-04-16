@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css" />
+    <title>Teste front-end</title>
+</head>
+<body>
+    <header>
+        <div class="logo">logo</div>
+        <div class="menu">
+            <div><a href="#">Estatisticas</a></div>
+            <div><a href="#">Exibir Noticias</a></div>
+        </div>
+        <div class="busca">
+            <input type="text" id="txtBusca" alt="Buscar" />
+            <img src="lupa2.png" />
+        </div>
+
+
+        <script>
+        // Criando seletor para a lista
+        // const ul = document.querySelector('ul');
+
+
+        function InserirPagamento(){
+            // Criando item para a lista
+            const ul = document.createElement('ul')
+            ul.innerHTML = "";
+            const li = document.createElement('li')
+
+
+            // Inserindo item na lista
+            li.innerHTML = `
+            <p> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA </p>
+            `
+            ul.appendChild(li)
+
+            
+
+            // window.alert("Deu certo");
+        }
+
+        function InserirPagamento2(){
+
+            let meuElemento = document.getElementById("meu-elemento");
+            meuElemento.innerHTML = "Olá, mundo!";
+
+        }
+
+
+        function InserirPagamento3(){
+            // Criando item para a lista
+            const ul = document.getElementById('itens')
+            // ul.innerHTML = "";
+            const li = document.createElement('li')
+
+
+            // Inserindo item na lista
+            li.innerHTML = `
+            <p> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA </p>
+            `
+            ul.appendChild(li)
+
+            
+
+            // window.alert("Deu certo");
+        }
+
+        
+
+        
+        </script>
+
+
+    </header>
+    <div class="card1">
+        <div>
+            <h1>Lorem Ipsum</h1>
+            <label>Nome:</label>
+            <br>
+            <input>
+            <br>
+            <label>Valor:</label>
+            <br>
+            <input>
+            <br>
+            <button id="btnInserirValor" onclick="InserirPagamento3();">Inserir</button>
+            <ul></ul>
+            <!-- <a href="#">Acessar</a> -->
+        </div>
+        
+
+        <div id="meu-elemento" >
+            <ul id="itens"></ul>
+
+        </div>
+
+        <div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeriFrARt-_F5TupdZIWo40dbEFt1RBRgINz8stCGbAHAyPAw/viewform?embedded=true" width="400" height="781" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        </div>
+
+        <!-- <div class="item">
+            <h1>Lorem Ipsum</h1>
+            <table>
+  <thead>
+    <tr>
+      <th>Coluna 1</th>
+      <th>Coluna 2</th>
+      <th>Coluna 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Linha 1, Coluna 1</td>
+      <td>Linha 1, Coluna 2</td>
+      <td>Linha 1, Coluna 3</td>
+    </tr>
+    <tr>
+      <td>Linha 2, Coluna 1</td>
+      <td>Linha 2, Coluna 2</td>
+      <td>Linha 2, Coluna 3</td>
+    </tr>
+  </tbody>
+</table>
+
+            <a href="#">Acessar</a>
+        </div>
+        <div class="item">
+            <h1>Lorem Ipsum</h1>
+            <ul></ul>
+            <a href="#">Acessar</a>
+        </div>
+    </div>
+
+    <div class="card2">
+        <div class="item">
+            <h1>Lorem Ipsum</h1>
+            <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                took a galley of type and scrambled 
+            </p>
+            <a href="#">Acessar</a>
+        </div>
+        <div class="item">
+            <h1>Lorem Ipsum</h1>
+            <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                took a galley of type and scrambled 
+            </p>
+            <a href="#">Acessar</a>
+        </div>
+        <div class="item">
+            <h1>Lorem Ipsum</h1>
+            <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                took a galley of type and scrambled 
+            </p>
+            <a href="#">Acessar</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>Desenvolvido por Felipe Dev</div> -->
+    </div>
+</body>
+</html>
